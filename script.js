@@ -8,7 +8,7 @@ function volume_sphere() {
     const roundedVolume = volume.toFixed(4);
 
     // 5. Display result in the output field/span
-    document.getElementById("volume").textContent = roundedVolume;
+    document.getElementById("volume").value = roundedVolume;
   
 } 
 
